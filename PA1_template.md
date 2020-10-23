@@ -57,6 +57,7 @@ dd %>% filter(interval==5) %>%
 
 # Imputing missing values
 ## 6. Code to describe and show a strategy for imputing missing data
+
 Imputation using the mean of each day
 Total number of missing values `r sum(is.na(dd$steps))`
 ```{r}
